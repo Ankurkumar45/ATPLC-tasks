@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form | filling</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div align="center">
+            <table>
+                <tr>
+                    <td><img src="MCE.jpeg" id="image" class="mce" alt="image-loading"></td>
+                    <th><h1>Motihari College of Engineering, Motihari</h1></th>
+                </tr>
+            </table>   
+        </div>
+        <div class="form-div">
+            <form action="script php" method="post" target="_self" autocomplete="on">
+                <label for="name">Name:-</label>
+                <br>
+                <input type="text" placeholder="Enter your name">
+                <br>
+                <label for="mobile">Mobile no:-</label>
+                <br>
+                <input type="tel" placeholder="your mobile no.">
+                <br>
+                <label for="email">Email id:-</label>
+                <br>
+                <input type="email" placeholder="email address">
+                <br>
+                <label for="gender">Choose your gender:</label>
+                <br>
+                <div>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+                </div>
+                <br>
+                <label for="education">Education done:</label>
+                <br>
+                <div>
+                <input type="checkbox">10th
+                <input type="checkbox">11th/12th
+                <input type="checkbox">B.tech
+                </div>
+                <br>
+                <label for="tea">Do you like tea?</label>
+                <select>
+                <option value="null">...</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+                </select>
+                <br>
+                <label for="photo">One passport size photo:</label>
+                <input type="file" enctype="multipart/form-data">
+                <br>
+                <div>
+                    <input type="reset">
+                    <input type="submit">
+                </div>
+                
+            </form>
+        </div>
+        <style>
+            .form-div{
+                color: white;
+                padding: 10px;
+                background-color: rgb(221, 0, 255);
+            }
+            h1,img{
+                display: inline-block;
+            }
+            body{
+                background-color: aquamarine;
+            }
+            #image{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                border: 2px dotted black;
+            }
+        </style>
+    </body>
+</html>
