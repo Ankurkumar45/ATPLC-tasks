@@ -1,0 +1,53 @@
+.main_div {
+    display: flex;
+    justify-content: center;
+}
+
+.div1 {
+    background-color: aquamarine;
+    width: 300px;
+    height: cover;
+}
+
+.div2 {
+    background-color: rgb(224, 131, 18);
+    width: 300px;
+    height: cover;
+}
+
+.div3 {
+    background-color: rgb(198, 198, 30);
+    width: 300px;
+    height: cover;
+}
+
+.div4 {
+    background-color: rgb(30, 172, 219);
+    width: 300px;
+    height: cover;
+}
+
+.div1 div {
+    border-bottom: 3px dotted rgb(207, 23, 167);
+}
+
+.div1 h4 {
+    margin-top: 0px;
+    color: rgb(234, 95, 21);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p{
+    font-size: 10px;
+}
+
+.div2 p{
+    text-align: justify;
+}
+#hanu{
+    width: 100px;
+    height: 100px;
+}
+.div3 div{
+}
